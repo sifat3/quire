@@ -7,3 +7,7 @@ def home(request):
 
 def about(request):
     return render(request, 'connect/about.html')
+
+
+def work(request):
+    return render(request, 'connect/work.html')
